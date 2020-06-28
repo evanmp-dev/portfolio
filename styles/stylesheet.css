@@ -41,7 +41,15 @@
   }
 
   a[href="project-about-dogs.html"] {
-    background-color: orange;
+    background-color: tan;
+  }
+
+  a[href="project-about-marvel-movies.html"] {
+    background-color: ghostwhite;
+  }
+
+  a[href="project-about-basketball.html"] {
+    background-color: sandybrown;
   }
 
   a[href="lesson-01.html"] {
