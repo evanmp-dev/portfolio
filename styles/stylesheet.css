@@ -13,9 +13,41 @@
   body {
     background-color: powderblue;
   }
-  .purple-text {
-    color: rgba(0, 0, 255, .5);
+
+  .important:hover {
+    background-color:lime;
+    border-style: dashed;
+    border-color: magenta;
+    border-width: 3px;
   }
 
+  .important {
+  font-weight: bold;
+  }
+
+  #lead-header {
+    color: red;
+    font-weight: bold;
+  }
+
+  img {
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 2px;
+  }
+
+  a[href="index.html"] {
+    background-color: Chartreuse;
+  }
+
+  a[href="project-about-dogs.html"] {
+    background-color: orange;
+  }
+
+  a[href="lesson-01.html"] {
+    background-color: yellow;
+    border-style: dashed;
+    border-color: black;
+  }
 
 </style>
