@@ -1,61 +1,80 @@
-<style>
-  h1 {
-    color: dodgerblue;
-  }
+h1 {
+  color: dodgerblue;
+}
 
-  h1 {
-    color: dodgerblue;
-    border-style: solid;
-    border-width: 2px;
-    border-color: yellow;
-  }
+h1 {
+  color: dodgerblue;
+  border-style: solid;
+  border-width: 2px;
+  border-color: yellow;
+}
 
-  body {
-    background-color: powderblue;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
-  .important:hover {
-    background-color:lime;
-    border-style: dashed;
-    border-color: magenta;
-    border-width: 3px;
-  }
+body {
+  background-color: powderblue;
+  font-family: 'Epilogue', sans-serif;
+}
 
-  .important {
+.important:hover {
+  background-color:lime;
+  border-style: dashed;
+  border-color: magenta;
+  border-width: 3px;
+}
+
+.important {
+font-weight: bold;
+}
+
+#lead-header {
+  color: red;
   font-weight: bold;
-  }
+}
 
-  #lead-header {
-    color: red;
-    font-weight: bold;
-  }
+img {
+  border-style: dotted;
+  border-color: yellow;
+  border-width: 2px;
+}
 
-  img {
-    border-style: dotted;
-    border-color: yellow;
-    border-width: 2px;
-  }
+a[href="index.html"] {
+  background-color: Chartreuse;
+}
 
-  a[href="index.html"] {
-    background-color: Chartreuse;
-  }
+a[href="project-about-dogs.html"] {
+  background-color: tan;
+}
 
-  a[href="project-about-dogs.html"] {
-    background-color: tan;
-  }
+a[href="project-about-marvel-movies.html"] {
+  background-color: ghostwhite;
+}
 
-  a[href="project-about-marvel-movies.html"] {
-    background-color: ghostwhite;
-  }
+a[href="project-about-basketball.html"] {
+  background-color: sandybrown;
+}
 
-  a[href="project-about-basketball.html"] {
-    background-color: sandybrown;
-  }
+a[href="lesson-01.html"] {
+  background-color: yellow;
+  border-style: dashed;
+  border-color: black;
+}
 
-  a[href="lesson-01.html"] {
-    background-color: yellow;
-    border-style: dashed;
-    border-color: black;
-  }
+.container {
+  background-color: powderblue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
 
-</style>
+.box {
+  height: 350px;
+  width: 300px;
+  border: 20px solid powderblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
