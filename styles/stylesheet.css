@@ -36,6 +36,8 @@ body a:hover {
   transition: border 2s 2s;
 }
 
+li:nth-child(odd) { background-color: yellow; }
+
 body {
   background-color: powderblue;
   font-family: 'Epilogue', sans-serif;
