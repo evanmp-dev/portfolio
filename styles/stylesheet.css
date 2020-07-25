@@ -8,6 +8,34 @@ h1 {
   font-family: 'Vollkorn', sans-serif;
 }
 
+p::first-letter { font-size: 175%; }
+section a:hover {
+  color: dodgerblue;
+  font-size: 200%;
+  font-family: monospace;
+  border: 3px solid red;
+}
+section a:visited {
+  text-decoration: none;
+  color: green;
+}
+
+a {
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-timing-function: ease-out;
+  transition-delay: 2s;
+}
+
+section {
+  transition: border 4s ease-in 1s;
+}
+
+body a:hover {
+  border: 3px solid red;
+  transition: border 2s 2s;
+}
+
 body {
   background-color: powderblue;
   font-family: 'Epilogue', sans-serif;
