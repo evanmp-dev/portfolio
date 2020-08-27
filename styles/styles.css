@@ -1,33 +1,3 @@
-button, input, select, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  box-sizing: border-box;
-  display: block;
-  margin: 1rem;
-}
-input[type=submit] {
-  width: 100%;
-  background-color: steelblue;
-}
-
-input[type=password]:focus {
-  background-color: seagreen;
-  outline: none;
-}
-
-input {
-  border-radius: 15px;
-}
-
-
-fieldset {
-  border: none;
-}
-
-fieldset input {
-  display: inline;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Vollkorn:wght@600&display=swap');
 
 h1 {
@@ -138,4 +108,34 @@ a[href="lesson-01.html"] {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: steelblue;
+}
+
+input[type=password]:focus {
+  background-color: seagreen;
+  outline: none;
+}
+
+input {
+  border-radius: 15px;
+}
+
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
 }
