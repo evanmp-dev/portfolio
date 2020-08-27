@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Back to Home</a>
+      <br>
+    </nav>
+
+    <form method="GET">
+      <label>Your Name:
+        <input type="text" name="applicantName">
+      </label>
+
+      <label>Your Email:
+        <input type="email" name="applicantemail">
+      </label>
+
+      <label for="city">What city are you from?</label>
+      <input id="city" type="text"
+      name="applicantCity">
+
+      <label>How old are you?
+        <input type="number" name="ageCount">
+      </label>
+
+      <label>What questions do you have for me?
+        <textarea name="applicantReason" rows="4"
+        cols="50">Ex. What inspires you?</textarea>
+      </label>
+
+      <fieldset>
+        <legend>Are you interested in subscribing to my newsletter?</legend>
+        <label>
+          <input type="radio" name="special" value="yes">
+          Yes
+        </label>
+        <label>
+          <input type="radio" name="special" value="no">
+          No
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit!">
+
+    </form>
+
+  </body>
+</html>
